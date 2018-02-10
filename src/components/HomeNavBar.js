@@ -15,24 +15,6 @@ function HomeNavBar(props) {
           Alumni Page
         </NavLink>
       </div>
-      <div className="navlink">
-        {" "}
-        <NavLink to={`/users/${props.userId}/rooms/${props.roomId}/projects`}>
-          Project Board
-        </NavLink>
-      </div>
-      <div className="navlink">
-        {" "}
-        <NavLink to={`/users/${props.userId}/rooms/${props.roomId}/jobs`}>
-          Job Board
-        </NavLink>
-      </div>
-      <div className="navlink">
-        {" "}
-        <NavLink to={`/users/${props.userId}/rooms/${props.roomId}/resume`}>
-          Resume Review
-        </NavLink>
-      </div>
     </div>
   );
 }
